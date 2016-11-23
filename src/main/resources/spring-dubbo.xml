@@ -18,7 +18,7 @@
     <dubbo:annotation package="com.sample"/>
     <dubbo:protocol name="dubbo" port="20887" />
 
-    <dubbo:protocol name="rest" port="9090" threads="500" contextpath="services" server="tomcat" accepts="500" extension="com.sample.util.MyExceptionMapper"></dubbo:protocol>
+    <dubbo:protocol name="rest" port="9090" threads="500" contextpath="services" server="tomcat" accepts="500" extension="com.sample.util.MyExceptionMapper"/>
 
 
     <dubbo:reference interface="com.order.server.UserServer" id="userServer" check="false"/>
