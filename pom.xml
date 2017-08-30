@@ -145,6 +145,7 @@
             <artifactId>resteasy-netty</artifactId>
             <version>3.0.7.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-client</artifactId>
